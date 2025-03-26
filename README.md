@@ -27,8 +27,8 @@ There are a number of steps for you to complete to import this into your hugo we
 ### 2. Set Up Webpack Build (from Theme)
 Copy build-related files into your project root:
 ```bash
-cp themes/bootstrap/build/webpack.config.js .
-cp themes/bootstrap/build/package.template.json .
+cp themes/decap/build/webpack.config.js .
+cp themes/decap/build/package.template.json .
 ```
 Then:
 ```bash
