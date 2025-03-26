@@ -1,0 +1,9 @@
+backend:
+  name: github
+  branch: main
+  repo: "xxx/xxx"
+site_url: https://xxx.com
+media_folder: "static/img" # Folder where user uploaded files should go
+public_folder: "img"
+collections:
+# Add your collections

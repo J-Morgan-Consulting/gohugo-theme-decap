@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        <title>Content Manager</title>
+    </head>
+    <body>
+        <div id="login-container"></div>
+        <script type="module">
+            import { loadLoginForm } from "/dist/decap-auth.bundle.js"; 
+            loadLoginForm("login-container");
+        </script>
+  </body>
+  </html>
+  
